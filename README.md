@@ -7,7 +7,7 @@ Install:
 You'll need to:
 1. put your client_secret.json in /tmp 
 1. and set up your .env and .env.test like so:
-    ```
+```
 
 GCS_CLIENT_ID=
 CGS_CLIENT_SECRET=
@@ -15,4 +15,4 @@ OOB_URI="urn:ietf:wg:oauth:2.0:oob".freeze
 APPLICATION_NAME="Google Calendar API Ruby Quickstart"
 CREDENTIALS_PATH="credentials.json"
 SCOPE=Google::Apis::CalendarV3::AUTH_CA
-    ```
+```
