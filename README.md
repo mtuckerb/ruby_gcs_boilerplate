@@ -11,7 +11,7 @@ You'll need to:
 
 GCS_CLIENT_ID=
 CGS_CLIENT_SECRET=
-OOB_URI="urn:ietf:wg:oauth:2.0:oob".freeze
+OOB_URI="urn:ietf:wg:oauth:2.0:oob"
 APPLICATION_NAME="Google Calendar API Ruby Quickstart"
 CREDENTIALS_PATH="credentials.json"
 SCOPE=Google::Apis::CalendarV3::AUTH_CA
