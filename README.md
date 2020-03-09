@@ -3,7 +3,7 @@ This is a place to put all of the libraries that I use for a greenfields ruby GC
 
 I can't tell you how delighted I would be to see your PRs
 
-Install:
+# Install:
 You'll need to:
 1. put your client_secret.json in /tmp 
 1. and set up your .env and .env.test like so:
