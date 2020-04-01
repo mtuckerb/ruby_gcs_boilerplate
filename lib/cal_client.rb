@@ -13,8 +13,8 @@ class CalClient
     @client
   end
 
-  def method_missing(method, *_args)
-    @client.send(method.to_sym)
+  def method_missing(method, *_args, &block)
+    @client.send(method.to_sym, *_args, &block)
   end
 
 end
