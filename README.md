@@ -3,7 +3,7 @@ This is a place to put all of the libraries that I use for a greenfields ruby GC
 
 I can't tell you how delighted I would be to see your PRs
 
-Install:
+# Install:
 You'll need to:
 1. put your client_secret.json in /tmp 
 1. and set up your .env and .env.test like so:
@@ -16,3 +16,6 @@ APPLICATION_NAME="Google Calendar API Ruby Quickstart"
 CREDENTIALS_PATH="credentials.json"
 SCOPE=Google::Apis::CalendarV3::AUTH_CA
 ```
+1. Download your `service_key.json` and `client_secret.json` from Google Cloud Dashboard:
+    1. https://console.cloud.google.com/iam-admin/serviceaccounts
+    1. https://console.developers.google.com/apis/credentials
