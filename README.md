@@ -16,3 +16,6 @@ APPLICATION_NAME="Google Calendar API Ruby Quickstart"
 CREDENTIALS_PATH="credentials.json"
 SCOPE=Google::Apis::CalendarV3::AUTH_CA
 ```
+1. Download your `service_key.json` and `client_secret.json` from Google Cloud Dashboard:
+    1. https://console.cloud.google.com/iam-admin/serviceaccounts
+    1. https://console.developers.google.com/apis/credentials
