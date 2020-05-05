@@ -12,7 +12,9 @@ RSpec.describe Application do
       @user_auth = Authorize::User.new(
         code: ENV['USER_AUTH_CODE'],
         secret_file: './tmp/client_secret.json',
-        scope: 'https://www.googleapis.com/auth/calendar'
+        scope: [
+                Google::Apis::CalendarV3::AUTH_CALENDAR,
+                Google::Apis::AdminDirectoryV1::AUTH_ADMIN_DIRECTORY_USER_READONLY]
       )
     end
   end
@@ -25,6 +27,7 @@ RSpec.describe Application do
     skip_record do
       cal = CalClient.new(authorization: @user_auth.credentials)
       expect(cal.list_calendar_lists.items.count).to be > 0
+
     end
   end
 end

@@ -9,6 +9,7 @@ gem 'googleauth'
 
 group :development, :test do
   gem 'guard'
+  gem 'guard-rspec'
   gem 'rspec'
   gem 'vcr'
   gem 'webmock'

@@ -41,7 +41,7 @@ class Authorize
 
   class User
     OOB_URI = "urn:ietf:wg:oauth:2.0:oob"
-    APPLICATION_NAME = "Google Calendar API "
+   APPLICATION_NAME = "Google Calendar API "
     CREDENTIALS_PATH = "tmp/credentials.json"
     TOKEN_PATH = "tmp/token.yaml"
 
